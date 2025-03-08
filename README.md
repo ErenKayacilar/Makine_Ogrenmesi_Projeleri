@@ -17,6 +17,9 @@ Karmaşıklık Matrisi:
   [[54 17]
     [23 25]]
 
+Karşılaştırma sonucu :
+Modeller incelendiğinde Scikit-learn kullanılarak yapılan modelin doğruluk oranının daha yüksek olduğu görülmektedir ama bu tamamen kodlama biçimine göre değişebilir. Ancak eğitim ve test süreleri açısından büyük bir fark bulunmaktadır. Scikit-learn kullanmayan modelin eğitimi ve test süresi çok daha uzundur. Bunun sebebi, optimize edilmiş kütüphanelerin eksikliği ve temel Python uygulamalarının daha fazla hesaplama maliyeti gerektirmesidir.Özelleştirilmiş bir model gerekliyse, Naive Bayes gibi algoritmalar sıfırdan uygulanarak detaylı analiz yapılabilir ancak işlem süresi uzun olabilir.
+
 Şimdi veri setine - amaca göre naive bayes uygulamalarını nasıl farklı değerlendirmemiz gerektiğine bakalım
 
 Dengesiz Veri Kümeleri: 
@@ -27,7 +30,6 @@ Tıbbi Teşhis: Yanlış negatiflerin (FN) kritik olduğu durumlarda hassasiyet 
 Spam Filtreleme: Yanlış pozitiflerin (FP) önemli olduğu durumlarda kesinlik (precision) daha önemli olabilir.
 Genel Sınıflandırma Problemleri: Dengeli veri kümelerinde F1 skoru veya doğruluk (accuracy) iyi bir gösterge olabilir.
 
-Karşılaştırma sonucu :
-Modeller incelendiğinde Scikit-learn kullanılarak yapılan modelin doğruluk oranının daha yüksek olduğu görülmektedir ama bu tamamen kodlama biçimine göre değişebilir. Ancak eğitim ve test süreleri açısından büyük bir fark bulunmaktadır. Scikit-learn kullanmayan modelin eğitimi ve test süresi çok daha uzundur. Bunun sebebi, optimize edilmiş kütüphanelerin eksikliği ve temel Python uygulamalarının daha fazla hesaplama maliyeti gerektirmesidir.Özelleştirilmiş bir model gerekliyse, Naive Bayes gibi algoritmalar sıfırdan uygulanarak detaylı analiz yapılabilir ancak işlem süresi uzun olabilir.
+
 
 
