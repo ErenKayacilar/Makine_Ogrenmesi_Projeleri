@@ -1,5 +1,5 @@
 # Naive bayes uygulamaları
- yzm202 Makine öğrenmesi dersi projelerinden naive bayes projesinde scikit learn kullanarak ve kullanmayarak naive bayes uygulamaları yaptım ve aralarındaki farkları karşılaştırdım
+ yzm202 Makine öğrenmesi dersi projelerinden naive bayes projesinde öncelikle fake-real news veri setimin ön işlemlerini yapıp scikit learn kullanarak ve kullanmayarak naive bayes uygulamaları yaptım ve aralarındaki farkları karşılaştırdım
 
 Scikit-learn Kullanarak Elde Edilen Sonuçlar:
 Model Doğruluk Oranı: 0.7101
