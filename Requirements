@@ -30,3 +30,5 @@ Bu uygulamada kullanıldığı alan = Veri kümesindeki yanlış/doğru haber or
 klearn.linear_model.LogisticRegression = Lojistik regresyon modelini kullanarak ikili sınıflandırma yapar.
 Bu uygulamada kullanıldığı alan = Haber başlıklarının doğru mu yanlış mı olduğunu sınıflandırmak için kullanıldı
 
+from collections import Counter = Counter, elemanların frekansını sayan bir veri yapısıdır, amacı metni sayısal hale getirmek ve modelin öğrenmesi için veri hazırlamaktır.
+
