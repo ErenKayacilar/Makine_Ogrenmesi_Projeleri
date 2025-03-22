@@ -1,0 +1,33 @@
+pandas = pandas, veri manipülasyonu ve analizi için kullanılan bir Python kütüphanesidir.
+Bu uygulamada kullanıldığı alan = csv dosyasını okumak, bayes uygulamamız için veri setinde işimize yarayacak sütunları kullanmak,
+eksik verileri temizlemek-doldurmak,Etiketleri (Label) 0 ve 1 olacak şekilde yeniden düzenlemek
+
+time = Python'da zamanla ilgili işlemleri yapmak için kullanılır.
+Bu uygulamada kullanıldığı alan = Modelin eğitim ve test süresini ölçmek için , modelin performansını zaman bazında değerlendirmek için kullanıldı.
+
+matplotlib.pyplot = Python'da grafik ve görselleştirme işlemleri için kullanılan temel kütüphanelerden biridir.
+Bu uygulamada kullanıldığı alan = Karmaşıklık matrisini görselleştirmek için plt.figure() ve plt.show() kullanıldı.
+
+seaborn = Matplotlib’in daha gelişmiş ve estetik görselleştirme sağlayan sürümüdür.
+Bu uygulamada kullanıldığı alan = Confusion matrix’in daha okunaklı bir şekilde görselleştirilmesi için sns.heatmap() kullanıldı.
+
+sklearn.model_selection.train_test_split = Veriyi eğitim ve test kümelerine ayırmak için kullanılır.
+Bu uygulamada kullanıldığı alan = Dengelenmiş veriyi %80 eğitim %20 test olarak bölmek için kullanıldı.
+
+sklearn.feature_extraction.text.TfidfVectorizer = Metin verisini sayısal forma çevirmek için kullanılır,
+TF-IDF (Term Frequency - Inverse Document Frequency) yöntemiyle kelimelerin önem derecesini belirler.
+Bu uygulamada kullanıldığı alan = News_Headline sütunundaki metinleri vektörleştirmek için kullanıldı
+
+sklearn.preprocessing.OneHotEncoder = Kategorik verileri sayısal forma çevirmek için kullanılır.
+Bu uygulamada kullanıldığı alan = Source ve Stated_On sütunları kategorik veri olduğu için OneHotEncoder ile dönüştürüldü
+
+scipy.sparse.hstack = büyük ölçekli verileri bellek dostu bir şekilde işlemede kullanılır, hstack(), iki veya daha fazla sparse (seyrek) matrisin yatay olarak birleştirilmesini sağlar.
+Bu uygulamada kullanıldığı alan = TF-IDF ile sayısal hale getirilen X_text ve One-Hot Encoding sonrası X_categorical matrislerini birleştirmek için kullanldı.
+
+imblearn.over_sampling.SMOTE = Sınıf dengesizliği olan verilerde, azınlık sınıfın örneklerini artırarak dengeli bir dağılım oluşturur.
+Bu uygulamada kullanıldığı alan = Veri kümesindeki yanlış/doğru haber oranını dengelemek için SMOTE ile veri artırımı yapıldı
+
+klearn.linear_model.LogisticRegression = Lojistik regresyon modelini kullanarak ikili sınıflandırma yapar.
+Bu uygulamada kullanıldığı alan = Haber başlıklarının doğru mu yanlış mı olduğunu sınıflandırmak için kullanıldı
+
+from collections import Counter = Counter, elemanların frekansını sayan bir veri yapısıdır, amacı metni sayısal hale getirmek ve modelin öğrenmesi için veri hazırlamaktır.
