@@ -1,0 +1,30 @@
+pandas = pandas, veri manipülasyonu ve analizi için kullanılan bir Python kütüphanesidir.
+Bu uygulamada kullanıldığı alan = CSV dosyasını okumak, veri setindeki sütunlarla çalışmak, verileri düzenlemek ve dönüştürmek için kullandık.
+
+time = Python'da zamanla ilgili işlemleri yapmak için kullanılır.
+Bu uygulamada kullanıldığı alan = Modelin eğitim ve test sürelerini ölçerek performans analizi yapmak için kullandık.
+
+matplotlib.pyplot = Python'da grafik ve görselleştirme işlemleri için kullanılan temel kütüphanelerden biridir.
+Bu uygulamada kullanıldığı alan = Karmaşıklık matrisini ve model performansını görselleştirmek için plt.figure() ve plt.show() kullandık.
+
+seaborn = Matplotlib’in daha gelişmiş ve estetik görselleştirme sağlayan sürümüdür.
+Bu uygulamada kullanıldığı alan = Confusion matrix’in daha okunaklı bir şekilde görselleştirilmesi için sns.heatmap() kullandık.
+
+sklearn.model_selection.train_test_split = Veriyi eğitim ve test kümesine ayırmak için kullanılır.
+Bu uygulamada kullanıldığı alan = Veriyi %80 eğitim, %20 test olarak düzenlemek için kullandık.
+
+sklearn.preprocessing.StandardScaler = Veriyi normalize etmek için kullanılır.
+Bu uygulamada kullanıldığı alan = Modelin daha stabil çalışması ve özniteliklerin farklı ölçeklerde olmasının etkisini azaltmak için kullandık.
+
+sklearn.linear_model.LogisticRegression = Lojistik regresyon modelini oluşturmak için kullanılır.
+Bu uygulamada kullanıldığı alan = Bağımsız değişkenler ile hedef değişken arasındaki ilişkiyi modelleyerek ikili sınıflandırma yapmak için kullandık.
+
+sklearn.metrics.accuracy_score, precision_score, recall_score, f1_score, confusion_matrix = Model performansını değerlendirmek için kullanılır.
+Bu uygulamada kullanıldığı alan = Modelin doğruluk (accuracy), kesinlik (precision), duyarlılık (recall) ve F1 skorunu hesaplamak, karmaşıklık matrisini oluşturmak için kullandık.
+
+numpy = Sayısal hesaplamalar ve dizi işlemleri için kullanılan bir kütüphane.
+Bu uygulamada kullanıldığı alan = Manuel lojistik regresyon modelinde matris çarpmaları, vektör işlemleri ve sigmoid fonksiyonunu hesaplamak için kullandık.
+
+from collections import Counter = Counter, elemanların frekansını sayan bir veri yapısıdır.
+Bu uygulamada kullanıldığı alan = Veri setindeki sınıf dağılımını analiz etmek ve dengesizlik olup olmadığını kontrol etmek için kullandık.
+
